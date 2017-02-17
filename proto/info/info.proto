@@ -1,0 +1,12 @@
+package com.hailocab.service.oauthclient.info;
+
+message Request {
+	required string token = 1;
+	required string provider = 2;
+}
+
+message Response {
+	optional string email = 1;
+	optional string givenName = 2;
+	optional string familyName = 3;
+}

@@ -1,0 +1,10 @@
+package com.hailocab.service.oauthclient.verify;
+
+message Request {
+	required string token = 1;
+	required string provider = 2;
+}
+
+message Response {
+	optional bool valid = 1;
+}

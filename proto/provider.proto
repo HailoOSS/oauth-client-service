@@ -1,0 +1,6 @@
+package com.hailocab.service.oauthclient.provider;
+
+enum OauthProvider {
+    GOOGLE = 0;
+    FACEBOOK = 1;
+}
